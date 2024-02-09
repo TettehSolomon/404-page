@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    top: -541px;
+    left: -939px;
+    border-radius: 8px;
+}
+
+/*++++++++++++++++++++++++++
+    Navbar Section 
++++++++++++++++++++++++++ */
+nav {
+    width: 133px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    top: 40px;
+    left: 77px;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25.18px;
+    letter-spacing: -8%;
+}
+
+#container {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+
+img {
+    width: 539.22px;
+    height: 447.43px;
+    top: 265px;
+    left: 77px;
+}
+
+#card-1 {
+    /* border: 2px solid green; */
+    margin: 0px 10px 10px 10px;
+}
+
+#card-2 {
+    /* border: 2px solid blue; */
+    margin: 0px 10px 10px 10px;
+
+}
+
+#card-2 h2 {
+    width: 586px;
+    height: 190px;
+    color: #333333;
+    top: 265px;
+    left: 735px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 79.78px;
+    letter-spacing: -3.5%;
+}
+
+#card-2 p {
+    width: 381px;
+    height: 108px;
+    top: 491px;
+    left: 736px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35.54px;
+    letter-spacing: -3.5%;
+    color: #4F4F4F
+}
+
+button {
+    width: 216px;
+    height: 68px;
+    top: 663px;
+    left: 740px;
+    background-color: #333333;
+    color: #fff;
+    margin: 20px 0 0 0;
+}
+
+footer p {
+    width: auto;
+    height: auto;
+    top: 1039px;
+    left: 577px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #BDBDBD;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 768px) {
+    #container {
+        flex-direction: column;
+    }
+
+    img {
+        width: 286.83px;
+        height: 238px;
+        top: 109px;
+        left: 44px;
+    }
+
+    #card-2 h2{
+        width: 350px;
+        height: 142px;
+        top: 407px;
+        left: 24px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 66.09px;
+        letter-spacing: -3.5%;
+        color: #333333;
+    }
+
+    #card-2 p {
+        width: 328px;
+        height: 81px;
+        top: 579px;
+        left: 23px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26.66px;
+        letter-spacing: -3.5%;
+        color: #4F4F4F
+    }
+     button {
+        width: 216px;
+        height: 68px;
+        top: 726px;
+        left: 24px;
+        border-radius: 3px;
+    }
+
+    nav {
+        width: 133px;
+        height: 25px;
+        top: 20px;
+        left: 24px;
+        font-family: monospace;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 25.18px;
+        letter-spacing: -8%;
+    }
+
+    footer p {
+        top: 908px;
+        left: 46px;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding: 20px 0 0 0;
+
+    }
+    
+}
