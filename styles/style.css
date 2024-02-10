@@ -159,6 +159,8 @@ footer p {
     }
 
     footer p {
+        width: auto;
+        height: auto;
         top: 908px;
         left: 46px;
         font-size: 14px;
